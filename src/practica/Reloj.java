@@ -43,7 +43,7 @@ public class Reloj {
 		File origen = new File("origen.txt");
 		File destino = new File("destino.txt");
 
-		try { 
+		try {  
 		  InputStream in = new FileInputStream(origen);
 		  OutputStream out = new FileOutputStream(destino);
 						
